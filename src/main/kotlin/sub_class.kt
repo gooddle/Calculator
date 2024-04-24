@@ -1,7 +1,7 @@
 package org.example
 
-class SubOperation(numDou1: Double, numDou2: Double) : Cal(numDou1, numDou2) {
+class SubOperation {
 
-    fun operateSub(): Double = sub()
-    var resultSub = println("결과값 : ${numDou1}-${numDou2}  입니다.")
+    fun operateSub(numDou1:Double, numDou2: Double) = numDou1 - numDou2
+
 }
