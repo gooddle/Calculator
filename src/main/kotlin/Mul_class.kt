@@ -1,3 +1,5 @@
+package org.example
+
 class MulOperation(numDou1: Double, numDou2: Double) : Cal(numDou1, numDou2) {
 
     fun operateMul(): Double = mul()

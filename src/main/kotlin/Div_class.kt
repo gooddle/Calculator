@@ -1,3 +1,5 @@
+package org.example
+
 class DivOperation(numDou1: Double, numDou2: Double) : Cal(numDou1, numDou2) {
 
     fun operateDiv(): Double = div()

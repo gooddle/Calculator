@@ -1,3 +1,5 @@
+package org.example
+
 open class Cal(val numDou1: Double, val numDou2: Double) {
     fun add(): Double = numDou1 + numDou2
     fun sub(): Double = numDou1 - numDou2

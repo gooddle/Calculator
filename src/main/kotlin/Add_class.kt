@@ -1,3 +1,5 @@
+package org.example
+
 class AddOperation(numDou1: Double, numDou2: Double) : Cal(numDou1, numDou2) {
 
     fun operateAdd(): Double = add()
