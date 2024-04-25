@@ -1,17 +1,7 @@
 package org.example
 
 fun main() {
-    while (true) {
-        println("숫자를 입력하세요")
-        val numDou1 = readLine()!!.toDouble()
 
-        println("+, *, %, -, / 중 선택하여 연산기호 입력")
-        val operator = readLine()!!
-
-        println("숫자를 입력하세요")
-        val numDou2 = readLine()!!.toDouble()
-
-        fun main() {
             while (true) {
                 println("숫자를 입력하세요")
                 val numDou1 = readLine()!!.toDouble()
@@ -36,9 +26,8 @@ fun main() {
                 println(result)
             }
         }
-    }
 
-}
+
 
 
 
