@@ -1,7 +1,7 @@
 package org.example
 
-class SubOperation {
+class SubOperation:AbstractOperation() {
 
-    fun operateSub(numDou1:Double, numDou2: Double): Double  = numDou1 - numDou2
+    override fun operate(numDou1:Double, numDou2: Double): Double  = numDou1 - numDou2
 
 }

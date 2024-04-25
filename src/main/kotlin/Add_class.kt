@@ -1,6 +1,6 @@
 package org.example
 
-class AddOperation {
-    fun operateAdd(numDou1: Double, numDou2: Double): Double = numDou1 + numDou2
+class AddOperation : AbstractOperation() {
+    override fun operate(numDou1: Double, numDou2: Double): Double = numDou1+numDou2
 }
 

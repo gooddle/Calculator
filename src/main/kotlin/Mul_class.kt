@@ -1,7 +1,7 @@
 package org.example
 
-class MulOperation {
+class MulOperation:AbstractOperation() {
 
-    fun operateMul(numDou1:Double, numDou2: Double) = numDou1 * numDou2
+    override fun operate(numDou1: Double, numDou2: Double): Double = numDou1*numDou2
 
 }

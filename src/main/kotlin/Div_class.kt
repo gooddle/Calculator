@@ -1,7 +1,7 @@
 package org.example
 
-class DivOperation {
-
-    fun operateDiv(numDou1:Double, numDou2: Double) = numDou1 / numDou2
-
+class DivOperation : AbstractOperation() {
+    override fun operate(num1: Double, num2: Double): Double {
+        return num1 / num2
+    }
 }
