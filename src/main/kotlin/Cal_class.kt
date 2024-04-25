@@ -1,7 +1,7 @@
 package org.example
 
 class Cal {
-    fun operate(make: AbstractOperation, num1: Double, num2: Double): Double {
-        return make.operate(num1, num2)
+    fun operate(make: AbstractOperation, numDou1: Double, numDou2: Double): Double {
+        return make.operate(numDou1, numDou2)
     }
 }

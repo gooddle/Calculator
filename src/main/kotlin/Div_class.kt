@@ -1,7 +1,6 @@
 package org.example
 
 class DivOperation : AbstractOperation() {
-    override fun operate(num1: Double, num2: Double): Double {
-        return num1 / num2
-    }
+    override fun operate(numDou1: Double, numDou2: Double): Double = numDou1/numDou2
+        
 }

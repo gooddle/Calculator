@@ -1,5 +1,5 @@
 package org.example
 
 abstract class AbstractOperation {
-    abstract fun operate(num1: Double, num2: Double): Double
+    abstract fun operate(numDou1: Double, numDou2: Double): Double
 }
